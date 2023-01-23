@@ -1,0 +1,40 @@
+button{
+    background-color: #85adad;
+    border: none;
+    border-radius: 20px;
+    width: 30%;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.block-of-text{
+    display: flex;
+    flex-direction: column; 
+    background-color: #d1e0e0;
+    padding: 20px; 
+    border-top: solid;
+    border-color: #85adad;
+}
+
+.block-of-text div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-of-text div p{
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.block-of-text button{
+    height: 30px;
+    width: 40px;
+    border: none;
+    background-color: transparent;
+}
